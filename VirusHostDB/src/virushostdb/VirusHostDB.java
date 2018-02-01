@@ -171,6 +171,7 @@ public class VirusHostDB extends javax.swing.JFrame {
 
     private void OpenfunctieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OpenfunctieActionPerformed
         // TODO add your handling code here:      
+        
         try {
             String line;
             try (BufferedReader inFile = new BufferedReader(new FileReader(pad)) // File openen
